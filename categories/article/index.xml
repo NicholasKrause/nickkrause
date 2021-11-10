@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on Scott C. Krause 🚀 neodigm</title>
+    <link>https://thescottkrause.com/categories/article/</link>
+    <description>Recent content in Article on Scott C. Krause 🚀 neodigm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jul 2021 19:06:14 -0500</lastBuildDate><atom:link href="https://thescottkrause.com/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Marketing Reporting</title>
+      <link>https://thescottkrause.com/thought_leadership/automated-reporting/</link>
+      <pubDate>Sat, 24 Jul 2021 19:06:14 -0500</pubDate>
+      
+      <guid>https://thescottkrause.com/thought_leadership/automated-reporting/</guid>
+      <description>How to Generate Automated Pre-sales Reports</description>
+    </item>
+    
+    <item>
+      <title>Using the Google Cloud to Sell Digital Marketing</title>
+      <link>https://thescottkrause.com/thought_leadership/cloud-partner/</link>
+      <pubDate>Fri, 12 Mar 2021 19:25:11 -0600</pubDate>
+      
+      <guid>https://thescottkrause.com/thought_leadership/cloud-partner/</guid>
+      <description>Why I Became a Google Cloud Partner</description>
+    </item>
+    
+    <item>
+      <title>How To Transition SEO To A New Website</title>
+      <link>https://thescottkrause.com/thought_leadership/seo-transition/</link>
+      <pubDate>Thu, 04 Mar 2021 20:27:43 -0600</pubDate>
+      
+      <guid>https://thescottkrause.com/thought_leadership/seo-transition/</guid>
+      <description>Apply a SEO Mindset to Web Development</description>
+    </item>
+    
+  </channel>
+</rss>
