@@ -508,7 +508,7 @@ section.pfmf-grid > div > article.pfmf-crd--electricblue {
         display: grid;
     }
     .megamenu .megamenu__grd--card {    
-        grid-template-columns: repeat(6, minmax(16vw, 1fr));
+        grid-template-columns: repeat(5, minmax(16vw, 1fr));
     }
     .megamenu .megamenu__grd--card .mm__link--card {
         height: 16vw;

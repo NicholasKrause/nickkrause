@@ -61,7 +61,7 @@ href="#a11y-skipmain">Skip to Main Content</a>
                     <svg class="mm__vect mm__vect--close" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M13.89 8.7L12 10.59 10.11 8.7a.996.996 0 10-1.41 1.41L10.59 12 8.7 13.89a.996.996 0 101.41 1.41L12 13.41l1.89 1.89a.996.996 0 101.41-1.41L13.41 12l1.89-1.89a.996.996 0 000-1.41c-.39-.38-1.03-.38-1.41 0zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
                 </nav>
                 <div>
-<a class="mm__link--top" href="/" aria-label="Data Viz" data-at="Nick Krause">Nick Krause</a>
+        <a class="mm__link--top" href="/" aria-label="Data Viz" data-at="Nick Krause">Nick Krause</a>
                 </div>
                 <nav>
                     <svg class="scheme__vect scheme__vect--dark"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12.43 2.3c-2.38-.59-4.68-.27-6.63.64-.35.16-.41.64-.1.86C8.3 5.6 10 8.6 10 12c0 3.4-1.7 6.4-4.3 8.2-.32.22-.26.7.09.86 1.28.6 2.71.94 4.21.94 6.05 0 10.85-5.38 9.87-11.6-.61-3.92-3.59-7.16-7.44-8.1z"/></svg>
@@ -71,22 +71,20 @@ href="#a11y-skipmain">Skip to Main Content</a>
              <section class="megamenu__links megamenu__grd--card">
 
                 <a class="mm__link--card" href="/" rel="noopener">Home</a>
-                <a class="mm__link--card" href="/categories/success/" target="_blank" rel="noopener">Success Stories</a>
-                <a class="mm__link--card" href="https://www.arcanus55.com/?trusted55=A55PV2" target="_blank" rel="noopener">Interactive Projects</a>
-                <a class="mm__link--card" href="https://www.arcanus55.com/?trusted55=A55PV2" target="_blank" rel="noopener">Articles</a>
-                <a class="mm__link--card" href="/Arcanus_Scott_C_Krause_2021.pdf" target="_blank" rel="noopener">PDF Resume</a>
-                
+                <a class="mm__link--card" href="/categories/success-story/">Success Stories</a>
+                <a class="mm__link--card" href="categories/interactive-project/">Interactive Projects</a>
+                <a class="mm__link--card" href="/categories/article/">Articles</a>
+                <a class="mm__link--card" href="/Nicholas_Krause_Resume_2021.pdf" target="_blank" rel="noopener">PDF Resume</a>
             </section>   
         </header>
         <div>
             <section class="megamenu__links megamenu__grd--bottom">
 
                 <a class="mm__link--bottom" href="/" rel="noopener">Home</a>
-                <a class="mm__link--bottom" href="/categories/success/" target="_blank" rel="noopener">Success Stories</a>
-                <a class="mm__link--bottom" href="https://www.arcanus55.com/?trusted55=A55PV2" target="_blank" rel="noopener">Interactive Projects</a>
-                <a class="mm__link--bottom" href="https://www.arcanus55.com/?trusted55=A55PV2" target="_blank" rel="noopener">Articles</a>
-                <a class="mm__link--bottom" href="/Arcanus_Scott_C_Krause_2021.pdf" target="_blank" rel="noopener">PDF Resume</a>
-                
+                <a class="mm__link--bottom" href="/categories/success-story/">Success Stories</a>
+                <a class="mm__link--bottom" href="categories/interactive-project/">Interactive Projects</a>
+                <a class="mm__link--bottom" href="/categories/article/">Articles</a>
+                <a class="mm__link--bottom" href="/Nicholas_Krause_Resume_2021.pdf" target="_blank" rel="noopener">PDF Resume</a>
             </section>
         </div>
 </section>
@@ -165,7 +163,7 @@ href="css/rainbow.css">
 
     var isMobile = function(){ return (oD.body.clientWidth <= 768) ? true : false; }
     var CnfState = {"audio": false};
-    var AudioContext = window.AudioContext || false;
+    var AudioContext = false;
     if (AudioContext) {
       CnfState.audio = true;    
       var oAudContx = new AudioContext();    
@@ -359,8 +357,7 @@ if( e3 ) {
 </script>
 <script>
     var _d = document;
-    _d.addEventListener( "contextmenu", function(e) { playAudioFile( 7 ); });  
-    console.log("%c Scott C. Krause ⚡ Problem Solver and Visual Storyteller", "background: #000; color: #f4dc5e; font-size: 28px");
+    console.log("%c Nick Krause ⚡ Problem Solver and Visual Storyteller", "background: #000; color: #f4dc5e; font-size: 28px");
     function f1210(){ return (Math.floor(Math.random() * (10) + 1)); }
     
     function data2prop( sDset ){  
@@ -518,8 +515,6 @@ if( e3 ) {
                 }
             },
             "doHeroMouseEnter": ( ev )=>{
-
-
                 if( oHro.e && oHro.eBg && oHro.eBg.dataset.zoom != "false" ){
                     if( !oHro.isInit ){ 
                         oHro.h = oHro.e.offsetHeight * oHro.zMult;
@@ -573,18 +568,6 @@ if( e3 ) {
             }
         };
     })(document, "[data-at-vivid]", 964 );
-
-    let wired4sound = ((_d, _q)=>{
-        _d.querySelector( _q[0] ).addEventListener("click", ( ev )=>{
-            let aW4S = [];
-            let eTg = ev.target;
-            if( eTg && eTg.dataset.wired4sound ){
-                aW4S = eTg.dataset.wired4sound.split("|");
-                if( aW4S[0] == "click") playAudioFile( aW4S[1] );
-            }
-        }, false);
-        return {};
-    })( document, ["body"]);
 
     var snck=(function(_d,eID){var _nTimeout=5400,_aQ=[];
         var _eSb=_d.getElementById(eID)
@@ -658,7 +641,7 @@ if( e3 ) {
     "url": "https://www.theScottKrause.com",
     "sameAs" : [ "https://github.com/neodigm",
 "https://www.theScottKrause.com/",
-"https://thescottkrause.com/Arcanus_Scott_C_Krause_2021.pdf",
+"https://thescottkrause.com/Nicholas_Krause_Resume_2021.pdf",
 "https://thescottkrause.com/tags/javascript/",
                 "https://thescottkrause.com/thought_leadership/ecommerce-accessibility-a11y/",
 "https://thescottkrause.com/d3_datavis_skills.html",
