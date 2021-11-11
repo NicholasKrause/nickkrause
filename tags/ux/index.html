@@ -580,25 +580,6 @@ if( e3 ) {
         };
     })(document, "[data-at-vivid]", 964 );
 
-    setTimeout(()=>{
-        let wired4SoundPrep = (( _d )=>{ 
-
-            return {
-                "add2Dataset": ( _q, _s )=>{
-                    let aDeepSVGs = _d.querySelectorAll( _q );
-                        if( aDeepSVGs.length > 0){
-                            aDeepSVGs.forEach( (eSVG )=>{
-                            eSVG.dataset.wired4sound = "click|" + _s;
-                        });
-                    }
-                }
-            };
-        })( document);
-        wired4SoundPrep.add2Dataset(".flickity-button, .flickity-button-icon, .flickity-button-icon path", 2); 
-        wired4SoundPrep.add2Dataset(".mm__vect, .mm__vect path", 8); 
-        wired4SoundPrep.add2Dataset(".scheme__vect, .scheme__vect path", 14); 
-    },14000);
-
     let wired4sound = ((_d, _q)=>{
         _d.querySelector( _q[0] ).addEventListener("click", ( ev )=>{
             let aW4S = [];
