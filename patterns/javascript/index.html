@@ -978,33 +978,7 @@ if( e3 ) {
 </script>
 
     </body>
-</html>ty ){
-                setTimeout(function(){
-                    eCert.classList.remove("h-ds__none");
-                    var flktyCert = new Flickity( elFlickCert, {
-                    "cellAlign": "left", "contain": true, "autoPlay": true, "groupCells": true,
-                    pageDots: false
-                    });
-                    var aTrg = [].slice.call(_d.querySelectorAll(".flickity-slider .caro-target__js"));
-                    aTrg.forEach(eTrg => {
-                        eTrg.addEventListener("click", (ev) => {
-                            let eCrdTop = ev.currentTarget.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
-                            let eRelaCaption = eCrdTop.querySelector(".js-patterns__caption");
-                            let sCaroSrc = eCrdTop.querySelector("[data-caro-src]").dataset.caroSrc;
-                            let aCrdDetail = _d.querySelectorAll("[data-caro-target='"+ sCaroSrc +"']");
-
-                            if(aCrdDetail.length){
-                                switch( aCrdDetail[0].tagName ){
-                                    case "IMG":
-                                        aCrdDetail.forEach( (eCrd) =>{ 
-                                            eCrd.src = ev.currentTarget.src;
-                                            eCrd.dataset.zoom = ev.currentTarget.dataset.zoom;
-                                        });
-                                    break;
-                                    case "SOURCE": 
-                                        aCrdDetail[0].parentElement.src = ev.currentTarget.src.replace(".jpg", ".mp4");
-                                    break;
-                                    case "OUTPUT": 
+</html>                  case "OUTPUT": 
                                         let eEv = ev.currentTarget;
                                         ev.target.dataset.wired4sound = "click|6";
                                         aCrdDetail[0].innerHTML = eEv.querySelector("OUTPUT").outerHTML.replace("h-ds__none","");
