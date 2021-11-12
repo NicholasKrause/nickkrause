@@ -6,23 +6,14 @@
     <description>Recent content on Nick Krause</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Jul 2021 19:06:14 -0500</lastBuildDate><atom:link href="https://nickkrause.solutions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 18:43:42 -0600</lastBuildDate><atom:link href="https://nickkrause.solutions/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automated Marketing Reporting</title>
-      <link>https://nickkrause.solutions/thought_leadership/automated-reporting/</link>
-      <pubDate>Sat, 24 Jul 2021 19:06:14 -0500</pubDate>
+      <title>SEM Best Practices</title>
+      <link>https://nickkrause.solutions/thought_leadership/sem-best-practices/</link>
+      <pubDate>Thu, 11 Nov 2021 18:43:42 -0600</pubDate>
       
-      <guid>https://nickkrause.solutions/thought_leadership/automated-reporting/</guid>
-      <description>How to Generate Automated Pre-sales Reports</description>
-    </item>
-    
-    <item>
-      <title>Using the Google Cloud to Sell Digital Marketing</title>
-      <link>https://nickkrause.solutions/thought_leadership/cloud-partner/</link>
-      <pubDate>Fri, 12 Mar 2021 19:25:11 -0600</pubDate>
-      
-      <guid>https://nickkrause.solutions/thought_leadership/cloud-partner/</guid>
-      <description>Why I Became a Google Cloud Partner</description>
+      <guid>https://nickkrause.solutions/thought_leadership/sem-best-practices/</guid>
+      <description>Socializing my PPC strategy</description>
     </item>
     
     <item>
@@ -41,15 +32,6 @@
       
       <guid>https://nickkrause.solutions/patterns/javascript/</guid>
       <description>Produce CSV with client-side JS. Construct Blog and Download as CSV file.</description>
-    </item>
-    
-    <item>
-      <title>Responsive Front Ends and API Calls</title>
-      <link>https://nickkrause.solutions/thought_leadership/interactive-front-end/</link>
-      <pubDate>Sat, 20 Feb 2021 19:38:41 -0600</pubDate>
-      
-      <guid>https://nickkrause.solutions/thought_leadership/interactive-front-end/</guid>
-      <description>Responsive Front-End That Pulls News Article API</description>
     </item>
     
     <item>
